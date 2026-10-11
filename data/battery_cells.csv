@@ -1,0 +1,12 @@
+
+Cell_ID,Supplier_Lot,Voltage,Inspection_Result
+C101,LOT_A,3.50,Pass
+C102,LOT_A,3.20,Fail
+C103,LOT_B,3.70,Pass
+C104,LOT_B,3.40,Pass
+C105,LOT_A,3.10,Fail
+C106,LOT_C,3.60,Pass
+C107,LOT_B,3.25,Fail
+C108,LOT_C,3.40,Pass
+C109,LOT_A,3.15,Fail
+C110,LOT_C,3.55,Pass
