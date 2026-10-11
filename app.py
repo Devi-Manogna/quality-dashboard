@@ -65,3 +65,16 @@ st.plotly_chart(fig, use_container_width=True)
 # Low voltage results
 st.subheader("Low Voltage Cells")
 st.dataframe(low_voltage_df, use_container_width=True)
+
+
+min_voltage = st.sidebar.slider(
+    "Minimum voltage",
+    min_value=2.5,
+    max_value=4.5,
+    value=2.5,
+    step=0.05,
+)
+
+filtered_df = filtered_df[
+    filtered_df["Voltage"] >= min_voltage
+].copy()
