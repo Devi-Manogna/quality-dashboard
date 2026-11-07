@@ -20,7 +20,7 @@ def main():
 
     failure_rate = calculate_failure_rate(clean_df)
     print(f"\nInspection failure rate: {failure_rate:.2f}%")
-
+    print(f"Total cells inspected: {len(clean_df)}")
 
 if __name__ == "__main__":
     main()
